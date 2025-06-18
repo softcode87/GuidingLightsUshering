@@ -563,7 +563,7 @@ header .nav-logo .logo-img {
 
 
 /* responsive media for 900px*/
-@media screen and (max-width: 900px){
+@media screen and (max-width: 600px){
     :root{
         --font-size-m: 1rem;
         --font-size-1: 1.3rem;
@@ -699,7 +699,7 @@ header .nav-logo .logo-img {
 
 /* responsive media for 640px*/
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 768px) {
         .menu-section .menu-list{
             gap: 60px;
         }
