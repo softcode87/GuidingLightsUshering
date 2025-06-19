@@ -550,12 +550,19 @@ header .nav-logo .logo-img {
   transition: transform 0.3s ease, filter 0.3s ease;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+
 @media screen and (max-width: 1024px){
     .menu-section .menu-list{
         gap: 60px;
     }
     .menu-section .menu-list .menu-item{
-            width: calc(100%/3 - 60px);
+            width: calc(100%/2 - 20px);
 
     }
 
@@ -645,6 +652,11 @@ header .nav-logo .logo-img {
             margin-right: 0;
 
         }
+        .menu-list, .gallery-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 
         /* about section*/
          .about-section .section-content{
@@ -684,9 +696,14 @@ header .nav-logo .logo-img {
             flex-direction: column-reverse;
         }
         
+        .hero-section .section-content,
+        .about-section .section-content,
         .contact-section .section-content {
+            flex-direction: column-reverse;
+            align-items: center;
+}
 
-        }
+        
 
 
 }
