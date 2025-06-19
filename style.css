@@ -753,4 +753,33 @@ img {
         gap: 20px;
     }
 
+    /* Make Quick Links horizontal on mobile */
+.footer-links ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links li {
+    margin: 0;
+}
+
+.footer-links a {
+    display: inline-block;
+    padding: 6px 12px;
+    font-size: 0.85rem;
+    background: var(--secondary-color);
+    color: var(--primary-color);
+    border-radius: var(--border-radius-s);
+    transition: background 0.3s ease;
+}
+
+.footer-links a:hover {
+    background: var(--white-color);
+    color: var(--primary-color);
+}
+
 }
