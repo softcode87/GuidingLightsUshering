@@ -539,6 +539,12 @@ header .navbar{
   color: #aaa;
 }
 
+.section-content1{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
 
 header .nav-logo .logo-img {
    width: 80px;
