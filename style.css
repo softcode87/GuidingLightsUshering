@@ -657,15 +657,11 @@ img {
 
         }
         .menu-list, .gallery-list {
-  display: flex;
-  flex-wrap: wrap;
+            display: flex;
+            flex-wrap: wrap;
 }
     .footer-links {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 10px;
+
   }
 
   .footer-links a {
