@@ -645,6 +645,10 @@ img {
         }
         .hero-section.hero-details .buttons{
             justify-content: center;
+            padding: 6px 12px;
+            font-size: 0.85rem;
+            display: flex;
+            flex-direction: row;
         }
         
         .hero-section .hero-image-wrapper{
