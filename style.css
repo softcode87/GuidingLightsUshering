@@ -136,10 +136,12 @@ header .navbar{
 }
 .hero-section .section-content{
     display: flex;
+    flex-direction: row;
     align-items: center;
     min-height: 100vh;
     color: var(--white-color);
     justify-content: space-between;
+    padding: 10px;
 }
 
 .hero-section .hero-details .title{
